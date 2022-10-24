@@ -6,9 +6,9 @@ import (
 )
 
 const DRIVERNAME = "mysql"
-const USER = "root"
-const PASS = "vitalik88"
-const NAMEDB = "tcp(localhost:3306)/usersdb"
+const USER = "YOUR USERNAME"
+const PASS = "YOUR PASSWORD"
+const NAMEDB = "YOUR DB NAME" // as example tcp(localhost:3306)/usersdb
 
 type User struct {
 	Id             uint16 `json:"id"`
