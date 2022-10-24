@@ -2,7 +2,7 @@
 
 ### Project description
 
-#### A simple microservice, where you can add email to DB, confirm it, control the process of confirming email.
+#### A simple webApp, where you can add email to DB, confirm it, control the process of confirming email.
 
 ### Features:
 
