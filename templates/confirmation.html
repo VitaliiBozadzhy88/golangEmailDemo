@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Confirmation</title>
+  <style>
+    body{
+      background-color: #cd9732
+    }
+  </style>
+</head>
+<body>
+<center>
+  <form action="http://localhost:8080/success" method="get">
+    <b>
+      <br><br><br><br>
+      <img src="https://media.tenor.com/cZsb7KXtCYkAAAAd/fight-me-come-on.gif" height="200" width="250">
+      <h1>ENTER ACTIVATION CODE: {{ .ActivationCode }}</h1>
+      <div style="width:500px;height:170px;border:7px solid #252525; background-color: #6b6a6a">
+        <br><br>
+        &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+        &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+        <label for="email"><b>EMAIL:</b></label>
+        <input name="email" type="email" id="email"><br><br>
+        <label for="code"><b>ACTIVATION CODE:</b></label>
+        <input name="code" type="number" id="code"><br><br>
+        <input type="submit" value="DONE">
+      </div>
+    </b>
+  </form>
+</center>
+</body>
+</html>
