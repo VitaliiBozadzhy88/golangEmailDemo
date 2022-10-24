@@ -21,6 +21,7 @@
 * ✅ Clone project (need to push Code button and choose in what way you want to get project)
 * ✅ Open with IntelliJ IDEA (if you do not have this program - download it [here](https://www.jetbrains.com/idea/download/#section=mac))
 * ✅ You will also need MySQL to this project. Setup instructions [here](https://www.youtube.com/watch?v=xaPuXh8IFIU) and [here](https://www.youtube.com/watch?v=ImqxBiv5yIY)
+* ✅ You have to SET UP ROOT. How to do it you find [here](https://www.jetbrains.com/help/idea/configuring-goroot-and-gopath.html)
 * ✅ So, we have Intellij, Browser(Safari, Google Chrome etc.) and MySql
 * ✅ Find in [User](model/User.go) fields - USER, PASS, NAMEDB. You have put here your UserName, Password and DB name that you must create
 before start work with this project. For quick start you may open MySql and write Query -> `create database usersdb` then another
@@ -39,7 +40,3 @@ as example make mistake and see what happens. Here realized check for empty fiel
 code field
 5. When you put proposed Code you will see final page with information -
    Service started with email (your email) and has status: (status)
-
-
-
-# golangEmailDemo
